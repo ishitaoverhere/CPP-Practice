@@ -1,5 +1,4 @@
 //wap to count the number of vowels, consonants, digits, special characters, symbols
-//wap to count the number of characters, words, lines when multiple lines are entered.
 //wap to check whether the given string is pallindrome or not
 #include <iostream>
 #include <string>
