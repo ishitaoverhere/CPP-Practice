@@ -1,6 +1,6 @@
 //wap to check whether the given string is palindrome or not
 #include<iostream>
-#include<string.h>
+#include<cstring>
 using namespace std;
 int main()
 {

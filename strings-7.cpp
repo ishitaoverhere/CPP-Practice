@@ -7,9 +7,9 @@ int main()
 {
     char str[200];
     int line=0, word=0, ch=0;
-    std::cout<<"\nEnter the string and end it with ~ : ";
-    // cin.get(str, 200);
-    scanf("%[^~]", str);
+    std::cout<<"\nEnter the string and end it with * in the next line : ";
+    cin.get(str, 200, '*');
+    //scanf("%[^~]", str);
     
     for(int i=0; str[i]!='\0'; i++)
     {
@@ -20,7 +20,7 @@ int main()
         }
         else 
         {
-            if(str[i]==' '||str[i]=='\t')
+            if(str[i]==' '||str[i]=='\t') //counts tab space as well
             {
                 word++;
                 ch++;

@@ -1,6 +1,6 @@
 //wap to count the number of vowels, consonants, digits, special characters, symbols
 #include <iostream>
-#include <string>
+#include <cstring>
 using namespace std;
 
 int main()
@@ -10,7 +10,7 @@ int main()
     std::cout<<"\nEnter the string : ";
     vowels = consonants = digits = spaces = symbols = 0;
 
-    cin.getline(str, 150);
+    cin.get(str, 150);
 
     for(i=0; str[i]!='\0'; ++i)
     {
