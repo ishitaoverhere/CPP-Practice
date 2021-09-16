@@ -1,5 +1,4 @@
 //wap to count the number of vowels, consonants, digits, special characters, symbols
-//wap to check whether the given string is pallindrome or not
 #include <iostream>
 #include <string>
 using namespace std;
@@ -41,10 +40,10 @@ int main()
     }
 
         std::cout<< "Vowels: " << vowels << endl;
-        std::cout<< "\nConsonants: " << consonants << endl;
-        std::cout<< "\nDigits: " << digits << endl;
-        std::cout<< "\nWhite spaces: " << spaces << endl;
-        std::cout<< "\nSymbols: " << symbols << endl;
+        std::cout<< "Consonants: " << consonants << endl;
+        std::cout<< "Digits: " << digits << endl;
+        std::cout<< "White spaces: " << spaces << endl;
+        std::cout<< "Symbols: " << symbols << endl;
 
         return 0;
 
